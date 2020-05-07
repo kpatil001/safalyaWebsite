@@ -107,6 +107,17 @@
     /* SERVICE SECTION ENDS*/
     
     /* partners FROM MARKETING*/
+h3.tittle,
+h2.tittle {
+    color: #111;
+    font-size: 40px;
+}
+
+p.sub-tittle {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 16px;
+}
 .partners {
     background: url(../images/inner.jpg) no-repeat top;
     background-size: cover;
@@ -9816,9 +9827,11 @@ h4.sub-title {
 .btn-demo {
   padding: 12px 24px; }
 
+/* commented because our partner section was affected
 @media screen and (min-width: 1400px) {
   .container {
     max-width: 1270px; } }
+ */
 
 @media screen and (min-width: 1600px) {
   .container {
